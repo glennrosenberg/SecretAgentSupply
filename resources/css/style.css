@@ -54,6 +54,10 @@ header, footer, p, .bannercaption {
   background-color: firebrick;
 }
 
+.brief {
+  display: none;
+}
+
 .menu ul {
   width: 100%;
   display: inline-flex;
@@ -122,4 +126,32 @@ header, footer, p, .bannercaption {
 footer {
   height: 5rem;
   margin-top: 4rem;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .glasses {
+    display: none;
+  }
+
+  .popular {
+    width: 47%;
+  }
+
+  .full {
+    display: none;
+  }
+
+  .brief {
+    display: initial;
+  }
+
+  .menu ul {
+    justify-content: center;
+  }
+
+  .site {
+    width: 100%;
+  }
+
 }
