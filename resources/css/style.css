@@ -155,3 +155,53 @@ footer {
   }
 
 }
+
+@media only screen and (max-width: 470px) {
+
+  .banner {
+    height: 15rem;
+    align-items: flex-end;
+  }
+
+  .bannercaption {
+    width: 100%;
+    padding: 2rem 1rem;
+    margin-top: 10rem;
+  }
+
+  .bannercaption p {
+    font-size: .77rem;
+  }
+
+  .bannercaption h1 {
+    font-size: 1rem;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .best-sellers {
+    justify-content: center;
+  }
+
+  .popular {
+    width: 90%;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .location, .hours {
+    width: 100%;
+    margin-top: .5rem;
+  }
+
+  footer .site {
+    justify-content: center;
+  }
+
+}
